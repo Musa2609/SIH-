@@ -1,0 +1,167 @@
+{
+    "dataset_info": {
+        "name": "UCI Hepatitis C Virus (HCV) Dataset (#571)",
+        "n_samples_total": 615,
+        "n_samples_train": 492,
+        "n_samples_test": 123,
+        "n_features": 12,
+        "target_mapping": {
+            "0=Blood Donor": 0,
+            "0s=suspect Blood Donor": 0,
+            "1=Hepatitis": 1,
+            "2=Fibrosis": 1,
+            "3=Cirrhosis": 1
+        },
+        "pca_4_variance": 0.5843108694088385
+    },
+    "models_performance": {
+        "Logistic Regression": {
+            "Accuracy": 0.9512195121951219,
+            "Balanced Accuracy": 0.8,
+            "Precision": 1.0,
+            "Recall": 0.6,
+            "F1-Score": 0.75,
+            "Macro F1": 0.8614864864864865,
+            "ROC-AUC": 0.9234567901234568,
+            "Confusion Matrix": [
+                [
+                    108,
+                    0
+                ],
+                [
+                    6,
+                    9
+                ]
+            ],
+            "Training Time": 0.016605138778686523
+        },
+        "Random Forest": {
+            "Accuracy": 0.975609756097561,
+            "Balanced Accuracy": 0.9,
+            "Precision": 1.0,
+            "Recall": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "Macro F1": 0.9375951293759512,
+            "ROC-AUC": 0.9972222222222222,
+            "Confusion Matrix": [
+                [
+                    108,
+                    0
+                ],
+                [
+                    3,
+                    12
+                ]
+            ],
+            "Training Time": 0.14527010917663574
+        },
+        "HistGradientBoosting": {
+            "Accuracy": 0.967479674796748,
+            "Balanced Accuracy": 0.8953703703703704,
+            "Precision": 0.9230769230769231,
+            "Recall": 0.8,
+            "F1-Score": 0.8571428571428571,
+            "Macro F1": 0.919397116644823,
+            "ROC-AUC": 0.9956790123456791,
+            "Confusion Matrix": [
+                [
+                    107,
+                    1
+                ],
+                [
+                    3,
+                    12
+                ]
+            ],
+            "Training Time": 1.5883090496063232
+        },
+        "XGBoost": {
+            "Accuracy": 0.983739837398374,
+            "Balanced Accuracy": 0.9333333333333333,
+            "Precision": 1.0,
+            "Recall": 0.8666666666666667,
+            "F1-Score": 0.9285714285714286,
+            "Macro F1": 0.9596985583224116,
+            "ROC-AUC": 0.9962962962962963,
+            "Confusion Matrix": [
+                [
+                    108,
+                    0
+                ],
+                [
+                    2,
+                    13
+                ]
+            ],
+            "Training Time": 0.17707538604736328
+        },
+        "Linear SVM": {
+            "Accuracy": 0.943089430894309,
+            "Balanced Accuracy": 0.7666666666666666,
+            "Precision": 1.0,
+            "Recall": 0.5333333333333333,
+            "F1-Score": 0.6956521739130435,
+            "Macro F1": 0.8321310196919478,
+            "ROC-AUC": 0.9777777777777777,
+            "Confusion Matrix": [
+                [
+                    108,
+                    0
+                ],
+                [
+                    7,
+                    8
+                ]
+            ],
+            "Training Time": 0.04231762886047363
+        },
+        "QML (4 Qubits)": {
+            "Accuracy": 0.9186991869918699,
+            "Balanced Accuracy": 0.7527777777777778,
+            "Precision": 0.7272727272727273,
+            "Recall": 0.5333333333333333,
+            "F1-Score": 0.6153846153846154,
+            "Macro F1": 0.784965034965035,
+            "ROC-AUC": 0.9290123456790123,
+            "Confusion Matrix": [
+                [
+                    105,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ]
+            ],
+            "Training Time": 24.558295011520386,
+            "N_Qubits": 4,
+            "N_Layers": 2,
+            "PCA_Explained_Variance": 0.5843108694088385
+        },
+        "QML (6 Qubits)": {
+            "Accuracy": 0.8943089430894309,
+            "Balanced Accuracy": 0.6527777777777778,
+            "Precision": 0.625,
+            "Recall": 0.3333333333333333,
+            "F1-Score": 0.43478260869565216,
+            "Macro F1": 0.6882433222850458,
+            "ROC-AUC": 0.9333333333333333,
+            "Confusion Matrix": [
+                [
+                    105,
+                    3
+                ],
+                [
+                    10,
+                    5
+                ]
+            ],
+            "Training Time": 39.10059475898743,
+            "N_Qubits": 6,
+            "N_Layers": 2,
+            "PCA_Explained_Variance": 0.7395750674646433
+        }
+    },
+    "best_classical_ml": "XGBoost",
+    "best_overall_model": "XGBoost"
+}

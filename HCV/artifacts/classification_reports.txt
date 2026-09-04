@@ -1,0 +1,77 @@
+=== Logistic Regression Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.95      1.00      0.97       108
+HCV-related pathology       1.00      0.60      0.75        15
+
+             accuracy                           0.95       123
+            macro avg       0.97      0.80      0.86       123
+         weighted avg       0.95      0.95      0.95       123
+Training Time: 0.0166s | ROC-AUC: 0.9235
+
+=== Random Forest Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.97      1.00      0.99       108
+HCV-related pathology       1.00      0.80      0.89        15
+
+             accuracy                           0.98       123
+            macro avg       0.99      0.90      0.94       123
+         weighted avg       0.98      0.98      0.97       123
+Training Time: 0.1453s | ROC-AUC: 0.9972
+
+=== HistGradientBoosting Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.97      0.99      0.98       108
+HCV-related pathology       0.92      0.80      0.86        15
+
+             accuracy                           0.97       123
+            macro avg       0.95      0.90      0.92       123
+         weighted avg       0.97      0.97      0.97       123
+Training Time: 1.5883s | ROC-AUC: 0.9957
+
+=== XGBoost Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.98      1.00      0.99       108
+HCV-related pathology       1.00      0.87      0.93        15
+
+             accuracy                           0.98       123
+            macro avg       0.99      0.93      0.96       123
+         weighted avg       0.98      0.98      0.98       123
+Training Time: 0.1771s | ROC-AUC: 0.9963
+
+=== Linear SVM Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.94      1.00      0.97       108
+HCV-related pathology       1.00      0.53      0.70        15
+
+             accuracy                           0.94       123
+            macro avg       0.97      0.77      0.83       123
+         weighted avg       0.95      0.94      0.94       123
+Training Time: 0.0423s | ROC-AUC: 0.9778
+
+=== QML (4 Qubits) Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.94      0.97      0.95       108
+HCV-related pathology       0.73      0.53      0.62        15
+
+             accuracy                           0.92       123
+            macro avg       0.83      0.75      0.78       123
+         weighted avg       0.91      0.92      0.91       123
+Training Time: 24.5583s | Cumulative PCA Variance: 58.43%
+
+=== QML (6 Qubits) Classification Report (HCV Test Set) ===
+                       precision    recall  f1-score   support
+
+      Healthy/Control       0.91      0.97      0.94       108
+HCV-related pathology       0.62      0.33      0.43        15
+
+             accuracy                           0.89       123
+            macro avg       0.77      0.65      0.69       123
+         weighted avg       0.88      0.89      0.88       123
+Training Time: 39.1006s | Cumulative PCA Variance: 73.96%
+

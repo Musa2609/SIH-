@@ -1,0 +1,232 @@
+{
+    "dataset_info": {
+        "name": "Rashid et al. Diabetes Dataset (Baghdad Medical City Hospital)",
+        "n_samples_total": 264,
+        "n_samples_train": 211,
+        "n_samples_test": 53,
+        "n_features": 11,
+        "target_classes": {
+            "0": "Non-Diabetic",
+            "1": "Pre-Diabetic / Predict-Diabetic",
+            "2": "Diabetic"
+        },
+        "pca_4_cumulative_variance": 0.6511791652957208
+    },
+    "models_performance": {
+        "Logistic Regression": {
+            "Accuracy": 0.8867924528301887,
+            "Balanced Accuracy": 0.8270917678812416,
+            "Macro Precision": 0.8736424394319132,
+            "Macro Recall": 0.8270917678812416,
+            "Macro F1": 0.8449828274389678,
+            "Weighted F1": 0.8827992412898072,
+            "Confusion Matrix": [
+                [
+                    17,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    5,
+                    2
+                ],
+                [
+                    1,
+                    0,
+                    25
+                ]
+            ],
+            "Training Time": 0.04761385917663574,
+            "CV Macro F1": 0.8295832029674312
+        },
+        "Random Forest": {
+            "Accuracy": 0.9811320754716981,
+            "Balanced Accuracy": 0.9871794871794872,
+            "Macro Precision": 0.9833333333333334,
+            "Macro Recall": 0.9871794871794872,
+            "Macro F1": 0.9849170437405732,
+            "Weighted F1": 0.9811889922877712,
+            "Confusion Matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    25
+                ]
+            ],
+            "Training Time": 0.8297483921051025,
+            "CV Macro F1": 0.9581655811362072
+        },
+        "XGBoost": {
+            "Accuracy": 0.9811320754716981,
+            "Balanced Accuracy": 0.9871794871794872,
+            "Macro Precision": 0.9833333333333334,
+            "Macro Recall": 0.9871794871794872,
+            "Macro F1": 0.9849170437405732,
+            "Weighted F1": 0.9811889922877712,
+            "Confusion Matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    25
+                ]
+            ],
+            "Training Time": 1.9240684509277344,
+            "CV Macro F1": 0.9741572732868619
+        },
+        "HistGradientBoosting": {
+            "Accuracy": 0.9811320754716981,
+            "Balanced Accuracy": 0.9871794871794872,
+            "Macro Precision": 0.9629629629629629,
+            "Macro Recall": 0.9871794871794872,
+            "Macro F1": 0.9738562091503268,
+            "Weighted F1": 0.9815020347761746,
+            "Confusion Matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    25
+                ]
+            ],
+            "Training Time": 2.594924211502075,
+            "CV Macro F1": 0.9741550611733167
+        },
+        "Linear SVM": {
+            "Accuracy": 0.8113207547169812,
+            "Balanced Accuracy": 0.636302294197031,
+            "Macro Precision": 0.5376190476190477,
+            "Macro Recall": 0.636302294197031,
+            "Macro F1": 0.5813692480359147,
+            "Weighted F1": 0.7475382758401627,
+            "Confusion Matrix": [
+                [
+                    18,
+                    0,
+                    1
+                ],
+                [
+                    6,
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    0,
+                    25
+                ]
+            ],
+            "Training Time": 0.25746989250183105,
+            "CV Macro F1": 0.6178127061948089
+        },
+        "QML (4 Qubits)": {
+            "Accuracy": 0.7358490566037735,
+            "Balanced Accuracy": 0.5755735492577597,
+            "Macro Precision": 0.4865900383141762,
+            "Macro Recall": 0.5755735492577597,
+            "Macro F1": 0.5268498942917548,
+            "Weighted F1": 0.6770752722485939,
+            "Confusion Matrix": [
+                [
+                    16,
+                    0,
+                    3
+                ],
+                [
+                    5,
+                    0,
+                    3
+                ],
+                [
+                    3,
+                    0,
+                    23
+                ]
+            ],
+            "Training Time": 11.43131422996521
+        },
+        "QML (6 Qubits)": {
+            "Accuracy": 0.7735849056603774,
+            "Balanced Accuracy": 0.6300607287449392,
+            "Macro Precision": 0.6973684210526315,
+            "Macro Recall": 0.6300607287449392,
+            "Macro F1": 0.6232304900181488,
+            "Weighted F1": 0.7380611581001951,
+            "Confusion Matrix": [
+                [
+                    16,
+                    0,
+                    3
+                ],
+                [
+                    2,
+                    1,
+                    5
+                ],
+                [
+                    1,
+                    1,
+                    24
+                ]
+            ],
+            "Training Time": 16.4074866771698
+        },
+        "QML (8 Qubits)": {
+            "Accuracy": 0.7735849056603774,
+            "Balanced Accuracy": 0.678306342780027,
+            "Macro Precision": 0.7673237753882916,
+            "Macro Recall": 0.678306342780027,
+            "Macro F1": 0.6996206733048839,
+            "Weighted F1": 0.7598700984996913,
+            "Confusion Matrix": [
+                [
+                    14,
+                    1,
+                    4
+                ],
+                [
+                    2,
+                    3,
+                    3
+                ],
+                [
+                    2,
+                    0,
+                    24
+                ]
+            ],
+            "Training Time": 23.7695574760437
+        }
+    },
+    "best_classical_ml": "Random Forest",
+    "best_overall_model": "Random Forest"
+}
