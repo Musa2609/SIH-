@@ -1,0 +1,174 @@
+{
+    "dataset_info": {
+        "name": "UCI Heart Disease Databases (Cleveland Clinic Foundation #45)",
+        "n_samples_total": 303,
+        "n_samples_train": 242,
+        "n_samples_test": 61,
+        "n_features": 13,
+        "target_mapping": {
+            "0": "Absence of CAD (<50% stenosis)",
+            "1": "Presence of CAD (>=50% stenosis)"
+        },
+        "pca_4_variance": 0.5567769479937787,
+        "pca_6_variance": 0.7006443140010941
+    },
+    "models_performance": {
+        "Logistic Regression": {
+            "Accuracy": 0.8688524590163934,
+            "Balanced Accuracy": 0.8733766233766234,
+            "Precision": 0.8125,
+            "Recall": 0.9285714285714286,
+            "F1-Score": 0.8666666666666667,
+            "Macro F1": 0.8688172043010753,
+            "Weighted F1": 0.8689934778776661,
+            "ROC-AUC": 0.9512987012987013,
+            "Confusion Matrix": [
+                [
+                    27,
+                    6
+                ],
+                [
+                    2,
+                    26
+                ]
+            ],
+            "Training Time": 0.0032820701599121094
+        },
+        "Random Forest": {
+            "Accuracy": 0.8852459016393442,
+            "Balanced Accuracy": 0.8885281385281385,
+            "Precision": 0.8387096774193549,
+            "Recall": 0.9285714285714286,
+            "F1-Score": 0.8813559322033898,
+            "Macro F1": 0.8851224105461393,
+            "Weighted F1": 0.8854311382791517,
+            "ROC-AUC": 0.9588744588744589,
+            "Confusion Matrix": [
+                [
+                    28,
+                    5
+                ],
+                [
+                    2,
+                    26
+                ]
+            ],
+            "Training Time": 0.08656072616577148
+        },
+        "HistGradientBoosting": {
+            "Accuracy": 0.9180327868852459,
+            "Balanced Accuracy": 0.9215367965367965,
+            "Precision": 0.8709677419354839,
+            "Recall": 0.9642857142857143,
+            "F1-Score": 0.9152542372881356,
+            "Macro F1": 0.9179445789615281,
+            "Weighted F1": 0.9181650987708225,
+            "ROC-AUC": 0.961038961038961,
+            "Confusion Matrix": [
+                [
+                    29,
+                    4
+                ],
+                [
+                    1,
+                    27
+                ]
+            ],
+            "Training Time": 0.07414031028747559
+        },
+        "XGBoost": {
+            "Accuracy": 0.8524590163934426,
+            "Balanced Accuracy": 0.8582251082251082,
+            "Precision": 0.7878787878787878,
+            "Recall": 0.9285714285714286,
+            "F1-Score": 0.8524590163934426,
+            "Macro F1": 0.8524590163934426,
+            "Weighted F1": 0.8524590163934426,
+            "ROC-AUC": 0.9296536796536796,
+            "Confusion Matrix": [
+                [
+                    26,
+                    7
+                ],
+                [
+                    2,
+                    26
+                ]
+            ],
+            "Training Time": 0.15862345695495605
+        },
+        "Linear SVM": {
+            "Accuracy": 0.8688524590163934,
+            "Balanced Accuracy": 0.8733766233766234,
+            "Precision": 0.8125,
+            "Recall": 0.9285714285714286,
+            "F1-Score": 0.8666666666666667,
+            "Macro F1": 0.8688172043010753,
+            "Weighted F1": 0.8689934778776661,
+            "ROC-AUC": 0.9502164502164503,
+            "Confusion Matrix": [
+                [
+                    27,
+                    6
+                ],
+                [
+                    2,
+                    26
+                ]
+            ],
+            "Training Time": 0.019025802612304688
+        },
+        "QML (4 Qubits)": {
+            "Accuracy": 0.7704918032786885,
+            "Balanced Accuracy": 0.7716450216450217,
+            "Precision": 0.7333333333333333,
+            "Recall": 0.7857142857142857,
+            "F1-Score": 0.7586206896551724,
+            "Macro F1": 0.7699353448275862,
+            "Weighted F1": 0.7708627755794234,
+            "ROC-AUC": 0.8333333333333334,
+            "Confusion Matrix": [
+                [
+                    25,
+                    8
+                ],
+                [
+                    6,
+                    22
+                ]
+            ],
+            "Training Time": 5.639451265335083,
+            "N_Qubits": 4,
+            "N_Layers": 2,
+            "Trainable_Parameters": 34,
+            "PCA_Explained_Variance": 0.5567769479937787
+        },
+        "QML (6 Qubits)": {
+            "Accuracy": 0.7377049180327869,
+            "Balanced Accuracy": 0.7332251082251082,
+            "Precision": 0.7307692307692307,
+            "Recall": 0.6785714285714286,
+            "F1-Score": 0.7037037037037037,
+            "Macro F1": 0.7342047930283224,
+            "Weighted F1": 0.7367048823172255,
+            "ROC-AUC": 0.7954545454545455,
+            "Confusion Matrix": [
+                [
+                    26,
+                    7
+                ],
+                [
+                    9,
+                    19
+                ]
+            ],
+            "Training Time": 9.003412961959839,
+            "N_Qubits": 6,
+            "N_Layers": 2,
+            "Trainable_Parameters": 50,
+            "PCA_Explained_Variance": 0.7006443140010941
+        }
+    },
+    "best_classical_ml": "HistGradientBoosting",
+    "best_overall_model": "HistGradientBoosting"
+}

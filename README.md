@@ -14,7 +14,7 @@ This platform provides high-accuracy disease screening algorithms by comparing c
 | :--- | :--- | :--- | :---: | :---: | :---: |
 | **HCV (Hepatitis C)** | Healthy/Control vs HCV Pathology | UCI Dataset #571 (`hcvdat0.csv`) | **FINALIZED** | **XGBoost (98.37% Acc)** | **4-Qubit VQC (91.87% Acc)** |
 | **DIABETES** | Non-Diabetic, Pre-Diabetic, Diabetic | Baghdad Medical City Hospital | **VALIDATED** | **Random Forest (98.11% Acc)** | **8-Qubit VQC (77.36% Acc)** |
-| **HEART** | Cardiovascular Pathology Screening | UCI Heart Disease (#45) | **READY (In Progress)** | *See Handoff Guide* | *See Handoff Guide* |
+| **HEART** | Cardiovascular Pathology Screening | UCI Heart Disease (#45) | **FINALIZED** | **HistGradientBoosting (91.80% Acc)** | **4-Qubit VQC (77.05% Acc)** |
 
 ---
 

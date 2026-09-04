@@ -1,0 +1,77 @@
+=== Logistic Regression Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.93      0.82      0.87        33
+Presence of CAD (>=50% Stenosis)       0.81      0.93      0.87        28
+
+                        accuracy                           0.87        61
+                       macro avg       0.87      0.87      0.87        61
+                    weighted avg       0.88      0.87      0.87        61
+Training Time: 0.0033s | ROC-AUC: 0.9513
+
+=== Random Forest Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.93      0.85      0.89        33
+Presence of CAD (>=50% Stenosis)       0.84      0.93      0.88        28
+
+                        accuracy                           0.89        61
+                       macro avg       0.89      0.89      0.89        61
+                    weighted avg       0.89      0.89      0.89        61
+Training Time: 0.0866s | ROC-AUC: 0.9589
+
+=== HistGradientBoosting Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.97      0.88      0.92        33
+Presence of CAD (>=50% Stenosis)       0.87      0.96      0.92        28
+
+                        accuracy                           0.92        61
+                       macro avg       0.92      0.92      0.92        61
+                    weighted avg       0.92      0.92      0.92        61
+Training Time: 0.0741s | ROC-AUC: 0.9610
+
+=== XGBoost Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.93      0.79      0.85        33
+Presence of CAD (>=50% Stenosis)       0.79      0.93      0.85        28
+
+                        accuracy                           0.85        61
+                       macro avg       0.86      0.86      0.85        61
+                    weighted avg       0.86      0.85      0.85        61
+Training Time: 0.1586s | ROC-AUC: 0.9297
+
+=== Linear SVM Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.93      0.82      0.87        33
+Presence of CAD (>=50% Stenosis)       0.81      0.93      0.87        28
+
+                        accuracy                           0.87        61
+                       macro avg       0.87      0.87      0.87        61
+                    weighted avg       0.88      0.87      0.87        61
+Training Time: 0.0190s | ROC-AUC: 0.9502
+
+=== QML (4 Qubits) Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.81      0.76      0.78        33
+Presence of CAD (>=50% Stenosis)       0.73      0.79      0.76        28
+
+                        accuracy                           0.77        61
+                       macro avg       0.77      0.77      0.77        61
+                    weighted avg       0.77      0.77      0.77        61
+Training Time: 5.6395s | Cumulative PCA Variance: 55.68%
+
+=== QML (6 Qubits) Classification Report (Heart Test Set) ===
+                                  precision    recall  f1-score   support
+
+  Absence of CAD (<50% Stenosis)       0.74      0.79      0.76        33
+Presence of CAD (>=50% Stenosis)       0.73      0.68      0.70        28
+
+                        accuracy                           0.74        61
+                       macro avg       0.74      0.73      0.73        61
+                    weighted avg       0.74      0.74      0.74        61
+Training Time: 9.0034s | Cumulative PCA Variance: 70.06%
+
